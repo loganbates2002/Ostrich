@@ -1,0 +1,11 @@
+Model Information:
+* title:	Winged T-rex Skeleton
+* source:	https://sketchfab.com/3d-models/winged-t-rex-skeleton-8ae61ee371744367b69f98320af348c1
+* author:	loganalt (https://sketchfab.com/loganalt)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Winged T-rex Skeleton" (https://sketchfab.com/3d-models/winged-t-rex-skeleton-8ae61ee371744367b69f98320af348c1) by loganalt (https://sketchfab.com/loganalt) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
