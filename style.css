@@ -489,7 +489,6 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   width: 100%;
   scroll-margin-top: 100px;
 }
-
 .Model_Info h3{
   color: rgb(44, 44, 44);
   font-size: 10rem;
@@ -502,7 +501,6 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   margin-top: 0%;
   padding: 0% 0%;
 }
-
 .Model_Info p{
   font-size: 1.5rem;
   color: rgb(56, 56, 56);
@@ -521,7 +519,6 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   text-overflow: ellipsis;
   z-index: 8;
 }
-
 #Model_Container{
   display: relative;
   position: relative;
@@ -565,7 +562,6 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   padding-right: 0%;
   background-color: #8f8f8f;
 }
-
 .footer__container a{
   color: #000000;
   text-decoration: none;
