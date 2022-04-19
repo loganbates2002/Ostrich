@@ -19,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap" rel="stylesheet">
   </head> 
   <body>
-
     <nav class="navbar">
       <div class="navbar__container">
         <a href="/" id="navbar__logo"><img src="Images/transparrentTrexSkull.png" alt="dino skull" width="50" height="" id="navbar__img"></a>
@@ -31,13 +30,16 @@
         <section class="navbar__list" id="dropdown-content">
           <ul class="navbar__list" id="dropdown-content">
               <li class="navbar__item">
-                <a href="/" class="navbar__links">Pangea</a>
+                <a href='javascript:;' onclick="document.getElementById('pangeaSection').scrollIntoView();" class="navbar__links">Pangea</a>
               </li>
               <li class="navbar__item">
-                <a href="/" class="navbar__links">Fossils</a>
+                <a href='javascript:;' onclick="document.getElementById('fossilSection').scrollIntoView();" class="navbar__links">The Fossil Process</a>
               </li>
               <li class="navbar__item">
-                <a href="/" class="navbar__links">Tyrannasaurus</a>
+                <a href='javascript:;' onclick="document.getElementById('ostrichSection').scrollIntoView();" class="navbar__links">Ostrich Anatomy</a>
+              </li>
+              <li class="navbar__item">
+                <a href='javascript:;' onclick="document.getElementById('tyrannasaurusSection').scrollIntoView();" class="navbar__links">The Tyrannasaurus</a>
               </li>
           </ul>
         </section>
@@ -51,7 +53,7 @@
         <h1>Jurassic</h1>
       </div>
     </section>
-    <div class="pangeaImages">
+    <div class="pangeaImages" id="pangeaSection">
       <section class="pangeaInfo">
         <h3>Pangea</h3>
         <p>Pangea or Pangaea was a supercontinent that existed during the late Paleozoic and early Mesozoic eras. It assembled from earlier continental units approximately 335 million years ago, and it began to break apart about 175 million years ago. Pangea's formation is now commonly explained in terms of plate tectonics. The formation of each environment and climate on Pangaea is due to plate tectonics, and thus, as a result of these shifts and changes different climatic pressures were placed on the life on Pangea. Although plate tectonics was paramount in the formation of later land masses, it was also essential in the placement, climate, environments, habitats, and overall structure of Pangea.</p>
@@ -102,7 +104,7 @@
       <input type="range" min="1" max="37" value="36" class="slider" id="sliderRange">
     </div>
 
-    <div class="fossilProcess">
+    <div class="fossilProcess" id="fossilSection">
       <h3>The Fossil Process</h3>
       <ul class="fossil_images">
         <img src="Images/FossilProcess/fossil1.png" alt="fossil" class="fossil__image1"/>
@@ -113,18 +115,17 @@
       <p class="fossil_description">Pangea or Pangaea was a supercontinent that existed during the late Paleozoic and early Mesozoic eras. It assembled from earlier continental units approximately 335 million years ago, and it began to break apart about 175 million years ago. Pangea's formation is now commonly explained in terms of plate tectonics. The formation of each environment and climate on Pangaea is due to plate tectonics, and thus, as a result of these shifts and changes different climatic pressures were placed on the life on Pangea. Although plate tectonics was paramount in the formation of later land masses, it was also essential in the placement, climate, environments, habitats, and overall structure of Pangea.</p>
     </div>
 
-    <div class="ostrichAnatomy">
+    <div class="ostrichAnatomy" id="ostrichSection">
       <h3>Ostrich Anatomy</h3>
       <p>Pangea or Pangaea was a supercontinent that existed during the late Paleozoic and early Mesozoic eras. It assembled from earlier continental units approximately 335 million years ago, and it began to break apart about 175 million years ago. Pangea's formation is now commonly explained in terms of plate tectonics. The formation of each environment and climate on Pangaea is due to plate tectonics, and thus, as a result of these shifts and changes different climatic pressures were placed on the life on Pangea. Although plate tectonics was paramount in the formation of later land masses, it was also essential in the placement, climate, environments, habitats, and overall structure of Pangea.</p>
       <img src="Images/OstrichAnatomy.png" alt="ostrich" class="ostrichAnatomy__image"/>
       <p id="ostrichAnatomy_p2">Pangea or Pangaea was a supercontinent that existed during the late Paleozoic and early Mesozoic eras. It assembled from earlier continental units approximately 335 million years ago, and it began to break apart about 175 million years ago. Pangea's formation is now commonly explained in terms of plate tectonics. The formation of each environment and climate on Pangaea is due to plate tectonics, and thus, as a result of these shifts and changes different climatic pressures were placed on the life on Pangea. Although plate tectonics was paramount in the formation of later land masses, it was also essential in the placement, climate, environments, habitats, and overall structure of Pangea.</p>
     </div>
 
-    <div class="Model_Info">
+    <div class="Model_Info" id="tyrannasaurusSection">
       <h3>The Tyrannasaurus</h3>
       <p>Pangea or Pangaea was a supercontinent that existed during the late Paleozoic and early Mesozoic eras. It assembled from earlier continental units approximately 335 million years ago, and it began to break apart about 175 million years ago. Pangea's formation is now commonly explained in terms of plate tectonics. The formation of each environment and climate on Pangaea is due to plate tectonics, and thus, as a result of these shifts and changes different climatic pressures were placed on the life on Pangea. Although plate tectonics was paramount in the formation of later land masses, it was also essential in the placement, climate, environments, habitats, and overall structure of Pangea.</p>
     </div>
-
     <div id="Model_Container">
     </div>
 
