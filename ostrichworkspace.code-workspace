@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "Ostrich",
+			"path": "."
+		},
+		{
+			"name": "TrexModelSite",
+			"path": "../TrexModelSite"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ostrich",
+		"liveServer.settings.port": 5501
+	}
+}
